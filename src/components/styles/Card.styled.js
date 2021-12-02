@@ -16,6 +16,7 @@ export const StyledCard = styled.div`
   & > div {
     flex: 1;
   }
+
   @media (max-width: ${({ theme }) => theme.mobile}) {
     flex-direction: column;
   }
